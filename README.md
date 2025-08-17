@@ -18,18 +18,17 @@ El análisis busca responder preguntas clave para el negocio:
 Este proyecto forma parte del Challenge de Data Science de Alura Latam y tiene como finalidad aplicar técnicas de análisis exploratorio de datos (EDA) con Python, Pandas y Matplotlib.
 
 📂 Estructura del proyecto
-Alura-Store/
+AluraStoreChallenge/
+├── data/ # Contiene las bases de datos en formato CSV
+│ ├── tienda1.csv
+│ ├── tienda2.csv
+│ ├── tienda3.csv
+│ └── tienda4.csv
 │
-├── data/
-│   ├── tienda_1.csv
-│   ├── tienda_2.csv
-│   ├── tienda_3.csv
-│   ├── tienda_4.csv
+├── notebooks/ # Contiene el notebook principal de análisis
+│ └── AluraStore.ipynb
 │
-├── notebooks/
-│   └── alura_store_analysis.ipynb   # Notebook principal con el análisis
-│
-├── README.md   # Documentación del proyecto
+├── README.md # Documentación principal del proyecto
 
 📊 Ejemplos de análisis, gráficos e insights
 1. Facturación por tienda
@@ -91,7 +90,7 @@ pip install pandas matplotlib
 
 Clona este repositorio o descarga los archivos:
 
-git clone https://github.com/tuusuario/Alura-Store.git
+git clone https://github.com/elanimal22/aluraStoreChallenge.git
 
 
 Abre el notebook en Google Colab o Jupyter Notebook.
